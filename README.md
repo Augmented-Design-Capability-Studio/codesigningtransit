@@ -28,7 +28,7 @@ _*The first two authors contributed equally_
 - [Sarah Fox](https://www.sarahfox.info) - Co-Principal Investigator
 - [Nikolas Martelaro](http://nikmartelaro.com) - Co-Principal Investigator
 - [Hunter Akridge](https://hcii.cmu.edu/people/hunter-akridge) - Research Assistant
-- [Alice Tang]() - Research Assistant
+- [Alice Tang](http://atangerine.com/) - Research Assistant
 
 ## Contact
 For inquiries about our research or to get involved, email [codesigningtransit@andrew.cmu.edu](mailto:codesigningtransit@andrew.cmu.edu)
