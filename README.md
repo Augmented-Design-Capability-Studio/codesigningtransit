@@ -14,9 +14,6 @@ Through this project, we aim to:
 - Advocate for proactive measures in policy, training, and infrastructure to prepare for the transition toward increased automation in transit operations.
 - Develop recommendations for policymakers, focusing on the implications of automation on transit work, safety regulations, and data-driven oversight of automated transit operations.
 
-
-## Research Projects
-
 ## Publications
 
 Hunter Akridge, Bonnie Fan, Alice Xiaodi Tang, Chinar Mehta, Nikolas Martelaro, and Sarah Fox. 2024. “The bus is nothing without us”: Making Visible the Labor of Bus Operators amid the Ongoing Push Towards Transit Automation. In the Proceedings of CHI ’24: Conference on Human Factors in Computing, May 11–16, 2024, Honolulu, HI. ACM, New York, NY, USA
