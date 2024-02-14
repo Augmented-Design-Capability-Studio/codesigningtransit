@@ -24,14 +24,14 @@ _*The first two authors contributed equally_
 ## Team
 - [Sarah Fox](https://www.sarahfox.info) - Co-Principal Investigator
 - [Nikolas Martelaro](http://nikmartelaro.com) - Co-Principal Investigator
-- [Hunter Akridge](https://hcii.cmu.edu/people/hunter-akridge) - Research Assistant
+- [Hunter Akridge](https://hcii.cmu.edu/people/hunter-akridge) - Research Associate
 - [Alice Tang](http://atangerine.com/) - Research Assistant
 
 ## Contact
 For inquiries about our research or to get involved, email [codesigningtransit@andrew.cmu.edu](mailto:codesigningtransit@andrew.cmu.edu)
 
 ## Acknowledgements
-This research has been generously supported by [Traffic21](https://www.cmu.edu/traffic21/), a transportation research institute at Carnegie Mellon University funded by the US Department of Transportation. 
+This research is generously supported by [Traffic21](https://www.cmu.edu/traffic21/), a transportation research institute at Carnegie Mellon University funded by the US Department of Transportation. 
 
-This research has been in collaboration with the [AFL-CIO Technology Institute](https://aflciotechinstitute.org), the [Transport Workers Union of America](https://www.twu.org), and the [Amalgamated Transit Union](https://www.atu.org).
+This research is in collaboration with the [AFL-CIO Technology Institute](https://aflciotechinstitute.org), the [Transport Workers Union of America](https://www.twu.org), and the [Amalgamated Transit Union](https://www.atu.org).
 
