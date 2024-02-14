@@ -1,6 +1,6 @@
 # Co-Designing the Future of Transit
 
-This research project aims to explore and shape the future of transit in an era increasingly influenced by automation technologies. While promising, the introduction of automated vehicle technology presents significant operational and safety challenges, especially in the intricate and unpredictable realm of public transit. Our research emphasizes that despite advancements in automation, skilled human operators will remain indispensable for navigating complex environments and ensuring passenger safety.
+Led by researchers at Carnegie Mellon University, this project aims to explore and shape the future of transit in an era increasingly influenced by automation technologies. While promising, the introduction of automated vehicle technology presents significant operational and safety challenges, especially in the intricate and unpredictable realm of public transit. Our research emphasizes that despite advancements in automation, skilled human operators will remain indispensable for navigating complex environments and ensuring passenger safety.
 
 In collaboration with the [AFL-CIO Technology Institute](https://aflciotechinstitute.org), the [Transport Workers Union of America](https://www.twu.org), and the [Amalgamated Transit Union](https://www.atu.org), our work aims to co-design future transit by directly engaging people on the frontline: bus operators and riders.
 
