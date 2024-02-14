@@ -22,10 +22,10 @@ Nikolas Martelaro*, Sarah Fox*, Jodi Forlizzi, Raj Rajkumar, Christopher Hendric
 _*The first two authors contributed equally_
 
 ## Team
-- [Sarah Fox](https://www.sarahfox.info) - Co-Principal Investigator
-- [Nikolas Martelaro](http://nikmartelaro.com) - Co-Principal Investigator
-- [Hunter Akridge](https://hcii.cmu.edu/people/hunter-akridge) - Research Associate
-- [Alice Tang](http://atangerine.com/) - Research Assistant
+- [Sarah Fox](https://www.sarahfox.info), Principal Investigator - Assistant Professor, Carnegie Mellon University 
+- [Nikolas Martelaro](http://nikmartelaro.com), Co-Principal Investigator — Assistant Professor, Carnegie Mellon University 
+- [Hunter Akridge](https://hcii.cmu.edu/people/hunter-akridge) - Research Associate, Carnegie Mellon University
+- [Alice Tang](http://atangerine.com/) - PhD Researcher, Carnegie Mellon University
 
 ## Contact
 For inquiries about our research or to get involved, email [codesigningtransit@andrew.cmu.edu](mailto:codesigningtransit@andrew.cmu.edu)
