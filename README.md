@@ -1,5 +1,5 @@
 ![Full-sized yellow bus on a city road with the front and back doors open at a bustop. Two people are peparing to board, another passengers is standing at the front with the operator, and several other passengers are are already onboard chatting in the back.There is a  boy outside of the bus listening to headphones, a man pushing another in a wheelchair, and still another riding by the scene on a bike. At the bus shelter, there is a man and a woman stilled seated waiting for their bus to arrive.]
-(/img/bus-web.png)
+(http://codesigningtransit.com/img/bus-web.png)
 
 # Co-Designing the Future of Transit
 
