@@ -1,3 +1,6 @@
+![Full-sized yellow bus on a city road with the front and back doors open at a bustop. Two people are peparing to board, another passengers is standing at the front with the operator, and several other passengers are are already onboard chatting in the back.There is a  boy outside of the bus listening to headphones, a man pushing another in a wheelchair, and still another riding by the scene on a bike. At the bus shelter, there is a man and a woman stilled seated waiting for their bus to arrive.]
+(/bus-web.png)
+
 # Co-Designing the Future of Transit
 
 Led by researchers at Carnegie Mellon University, this project aims to explore and shape the future of transit in an era increasingly influenced by automation technologies. While promising, the introduction of automated vehicle technology presents significant operational and safety challenges, especially in the intricate and unpredictable realm of public transit. Our research emphasizes that despite advancements in automation, skilled human operators will remain indispensable for navigating complex environments and ensuring passenger safety.
