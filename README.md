@@ -28,7 +28,6 @@ Reporting Mechanisms In Transit Work. Carnegie Mellon University, Pittsburgh, PA
 4. Hunter Akridge, Bonnie Fan, Alice Xiaodi Tang, Chinar Mehta, Nikolas Martelaro, and Sarah Fox. 2024. [“The bus is nothing without us”: Making Visible the Labor of Bus Operators amid the Ongoing Push Towards Transit Automation](https://techsolidaritylab.com/assets/pdfs/Akridge%20et%20al.%20-%20The%20Bus%20is%20Nothing%20Without%20Us%20-%20CHI%202024.pdf). In the Proceedings of the ACM Conference on Human Factors in Computing Systems (CHI ’24), May 11–16, 2024, Honolulu, HI. ACM, New York, NY, USA
 
 5. **Nikolas Martelaro**<sup>1</sup>, **Sarah Fox**<sup>1</sup>, Jodi Forlizzi, Raj Rajkumar, Christopher Hendrickson, and Stan Caldwell, [How to Make Sense of Bus Transit Automation: Considerations for Policy Makers on the Future of Human-Automation Teaming in the Transit Workforce](https://www.cmu.edu/traffic21/research-and-policy-papers/traffic21-policy-brief-22.1---apr-14-002.pdf). Traffic21: A Transportation Research Institute of Carnegie Mellon University, Pittsburgh, PA, 2022.
-
 <sup>1</sup>_**The first two authors contributed equally**_
 
 ## Team
