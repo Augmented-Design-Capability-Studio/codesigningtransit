@@ -29,7 +29,7 @@ Hunter Akridge, Bonnie Fan, Alice Xiaodi Tang, Chinar Mehta, Nikolas Martelaro, 
 
 **Nikolas Martelaro**<sup>1</sup>, **Sarah Fox**<sup>1</sup>, Jodi Forlizzi, Raj Rajkumar, Christopher Hendrickson, and Stan Caldwell, [How to Make Sense of Bus Transit Automation: Considerations for Policy Makers on the Future of Human-Automation Teaming in the Transit Workforce](https://www.cmu.edu/traffic21/research-and-policy-papers/traffic21-policy-brief-22.1---apr-14-002.pdf). Traffic21: A Transportation Research Institute of Carnegie Mellon University, Pittsburgh, PA, 2022.
 
-<sup>1</sup>**The first two authors contributed equally**
+<sup>1</sup>_**The first two authors contributed equally**_
 
 ## Team
 - [Sarah Fox](https://www.sarahfox.info), Principal Investigator - Assistant Professor, Carnegie Mellon University 
