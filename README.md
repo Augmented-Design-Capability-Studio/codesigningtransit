@@ -19,7 +19,7 @@ Through this project, we aim to:
 ## Publications
 
 1. Hunter Akridge, Sarah Fox, Alice Xiaodi Tang, and Nikolas Martelaro. 2025. [Health & Safety Sidelined: The Need For Effective And Non-Punitive
-Reporting Mechanisms In Transit Work](https://safety21.cmu.edu/wp-content/uploads/2025/04/Transit-Policy-Brief.pdf). Carnegie Mellon University, Pittsburgh, PA.
+Reporting Mechanisms In Transit Work](https://safety21.cmu.edu/wp-content/uploads/2025/04/Transit-Policy-Brief.pdf). Safety21: US DOT National University Transportation Center for Safety, Carnegie Mellon University, Pittsburgh, PA, 2025.
 
 2. Alice Xiaodi Tang, Hunter Akridge, Nikolas Martelaro, and Sarah Fox. 2025. At the Breaking Point: How Bus Operators Cope with Transit Technology Failures and What That Can Tell Us About the Integration of Future Innovations. In Proceedings of the ACM Conference on Designing Interactive Systems (DIS'25).
 
