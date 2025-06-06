@@ -1,0 +1,76 @@
+// //----------Template by Alice Tang for CMU Codesigning Transit Project----------//
+// //----------TWILIO----------//
+const scriptProperties = PropertiesService.getScriptProperties();
+var TWILIO_ACCOUNT_SID = scriptProperties.getProperties()["TWILIO_ACCOUNT_SID"];
+var TWILIO_AUTH_TOKEN = scriptProperties.getProperties()["TWILIO_AUTH_TOKEN"];
+
+function sendEmailsUsingAlias() {
+  const sheetName = "Contact Info"; // Replace with your sheet name
+  const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(sheetName);
+  const dataRange = sheet.getDataRange();
+  const data = dataRange.getValues();
+  const numRows = data.length;
+
+  const emailColumn = 2; // Column B
+  const greetingColumn = 6; // Column F
+  const alias = "your-email-alias@example.edu"; // 🔐 Replace with your actual alias
+
+  for (let i = 1; i < numRows; i++) { // Skip header row
+    const emailAddress = data[i][emailColumn - 1].trim();
+    const greetingName = data[i][greetingColumn - 1].trim();
+
+    if (emailAddress && greetingName) {
+      const subject = "Thank you from the Research Team!";
+      const body = `Dear ${greetingName},<br><br>
+        Thank you for your participation in our diary study. We are now in the analysis stage and no longer collecting entries. We appreciate your time and dedication.<br><br>
+        We've started an email list for periodic updates and future compensated research opportunities.<br><br>
+        <b>If you’ve expressed interest in joining</b>, you’ll receive a welcome email soon.<br>
+        <b>If you haven’t but would like to</b>, you can sign up at <a href="https://forms.gle/FORM_PLACEHOLDER">this form</a> or reply to this message.<br><br>
+        For updates and future publications, visit <a href="https://your-project-site.example.com">our website</a>.<br><br>
+        Thank you again!<br><br>
+        Cheers,<br>
+        The Research Team`;
+
+      GmailApp.sendEmail(emailAddress, subject, body, {
+        from: alias,
+        htmlBody: body
+      });
+    }
+  }
+}
+
+/*** Send SMS to participant with ${code} at phone number ${to} ***/
+function sendSMS(name, to, code, url) {
+  const sheetName = "Contact Info"; // Replace with your sheet name
+  const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(sheetName);
+  const dataRange = sheet.getDataRange();
+  const data = dataRange.getValues();
+  const numRows = data.length;
+
+  const phoneColumn = 3; // Column C
+  const greetingColumn = 6; // Column F
+
+  for (let i = 2; i < numRows; i++) { // Start after header rows
+    const to = data[i][phoneColumn - 1].toString().trim();
+    const greetingName = data[i][greetingColumn - 1].trim();
+
+    const messages_url = "https://api.twilio.com/2010-04-01/Accounts/" + TWILIO_ACCOUNT_SID + "/Messages.json";
+    const payload = {
+      MessagingServiceSid: "YOUR_MESSAGING_SERVICE_SID", // 🔐 Replace with your SID or use scriptProperties
+      To: to,
+      Body: `Dear ${greetingName},\n\nThank you for your participation in our diary study. We are now in the analysis stage and no longer collecting entries. We appreciate your time and dedication.\n\nWe've started an email list for periodic updates and future compensated research opportunities.\n\nIf you’ve previously expressed interest, you’ll receive a welcome email soon.\nIf not, you can sign up at https://forms.gle/FORM_PLACEHOLDER or reply to this text.\n\nFor updates and publications, visit https://your-project-site.example.com\n\nThank you again!\n\nCheers,\nThe Research Team`,
+      status_callback: "https://your-callback-url.example.com", // 🔐 Replace or remove for public sharing
+      From: "+10000000000" // 🔐 Placeholder phone number
+    };
+
+    const options = {
+      method: "post",
+      payload: payload,
+      headers: {
+        Authorization: "Basic " + Utilities.base64Encode(TWILIO_ACCOUNT_SID + ":" + TWILIO_AUTH_TOKEN)
+      }
+    };
+
+    UrlFetchApp.fetch(messages_url, options);
+  }
+}
