@@ -1,0 +1,109 @@
+// //----------Template by Alice Tang for CMU Codesigning Transit Project----------//
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css2?family=Source Serif Pro' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css2?family=Open Sans' rel='stylesheet'>
+    <title>Welcome Email</title>
+    <style>
+      /* [unchanged styles removed for brevity — keep your original CSS here] */
+    </style>
+  </head>
+  <body class="">
+    <span class="preheader"></span>
+    <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="body">
+      <tr>
+        <td>&nbsp;</td>
+        <td class="container">
+          <div class="content">
+          <!-- HEADER LOGO AND NAME -->
+          <header>
+          <img src="https://yourdomain.com/logo.png" alt="CMU Future of Transit Work Logo" width="125">
+          <p><span style="font-size:19px;">CMU Future of Transit</span>
+              <br>
+              <?= changes.chapterName ?>
+            </p>
+          </header>
+            
+            <!-- START CENTERED WHITE CONTAINER -->
+            <table role="presentation" class="main">
+            
+              <!-- START MAIN CONTENT AREA -->
+              <tr>
+                <td class="wrapper">
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td>
+                        <p style="font-size:16px;">Dear <?= changes.name ?>,</p>
+                        <p>Thank you for signing up to participate in the Future of Transit Work Diary Study!</p>
+                        <p>Here are the next steps (~5-10 minutes):</p>
+                        
+                        <p>*==========*</p>
+                        <p>1. Complete the <a href="https://example.com/diary-study-demographics">demographic questionnaire</a></p>
+                        <p>2. Complete the <a href="https://example.com/diary-study-consent">consent form</a></p>
+                        <p>3. Review the <a href="https://example.com/diary-study-walkthrough">welcome guide</a>. If you'd like a Zoom/phone call orientation instead, please let us know 3 times/days of the week in your time zone that you're available.</p>
+                        <p>*==========*</p>
+
+                        <p>Please don't hesitate to reach out if you have any questions or concerns!
+                        <br>Email: example@contact.edu
+                        <br>Text: (000) 000-0000
+                        <br>Phone: (000) 000-0000 </p>
+
+                        <p>Thank you for your time, and we look forward to seeing your diary study entries!</p>
+                        <p>Best,</p>
+                        <p>Alice Tang & The Future of Transit Work Team</p>
+
+                        <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="btn btn-primary">
+                          <tbody>
+                            <tr>
+                              <td align="left">
+                                <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                                  <tbody>
+                                    <!-- <tr>
+                                      <td> <a href="<?= changes.link ?>" target="_blank">Diary Study Link</a> </td>
+                                    </tr> -->
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+
+            <!-- END MAIN CONTENT AREA -->
+            </table>
+            <!-- END CENTERED WHITE CONTAINER -->
+
+            <!-- START FOOTER -->
+            <div class="footer">
+              <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td class="content-block">
+                    <span class="apple-link">Carnegie Mellon University - FoTW</span>
+                    <br><?= changes.chapterName ?>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="content-block powered-by">
+                    Powered by <a href="<?= changes.chapterWebsite ?>"> <?= changes.poweredBy ?> Team</a>.
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <!-- END FOOTER -->
+
+          </div>
+        </td>
+        <td>&nbsp;</td>
+      </tr>
+    </table>
+  </body>
+</html>
